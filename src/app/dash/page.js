@@ -1,7 +1,7 @@
 'use client'
 
 import { useSession, signOut } from 'next-auth/react'
-import { Player } from '@lottiefiles/react-lottie-player'
+// import { Player } from '@lottiefiles/react-lottie-player'
 import React, { useEffect, useState } from 'react'
 import { gt, de } from '../back/sr'
 import Link from 'next/link'

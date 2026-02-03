@@ -4,7 +4,7 @@ import React from 'react'
 import { useState,useEffect } from 'react'
 import { gt } from '../back/sr'
 import { mg } from '../back/sr'
-import { Player } from '@lottiefiles/react-lottie-player';
+// import { Player } from '@lottiefiles/react-lottie-player';
 import Link from 'next/link'
 import { useRef } from 'react'
 import { useSearchParams } from 'next/navigation'

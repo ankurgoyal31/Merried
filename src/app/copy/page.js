@@ -9,7 +9,7 @@ import { gt } from '../back/sr';
 import Link from "next/link";
 import { km } from '../back/sr';
 import { Suspense } from 'react';
-import { Player } from '@lottiefiles/react-lottie-player';
+// import { Player } from '@lottiefiles/react-lottie-player';
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import Navbar from '../../../nabar/navb';
