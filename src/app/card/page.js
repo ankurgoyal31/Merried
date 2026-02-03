@@ -5,7 +5,7 @@ import { useState ,useEffect } from 'react'
 import { py } from '../back/sr'
 import { useSearchParams } from "next/navigation";
 import { chg } from '../back/sr'
-import { Player } from '@lottiefiles/react-lottie-player';
+// import { Player } from '@lottiefiles/react-lottie-player';
 import Link from 'next/link'
 import { Suspense } from 'react'
 import Navbar from '../../../nabar/navb'
