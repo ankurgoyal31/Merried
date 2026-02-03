@@ -58,9 +58,21 @@ const[load,sload] = useState("")
 <Navbar/>
 
 <div className="hero">
-  <video autoPlay loop muted playsInline className="abn">
+  {/* <video autoPlay loop muted playsInline className="abn">
     <source src="/video/back.mp4" type="video/mp4" />
-  </video>
+  </video> */}
+
+   <video
+    className="abn"
+    src="/video/back.mp4"
+    autoPlay
+    muted
+    loop
+    playsInline
+    preload="auto"
+    style={{
+      display: "block",
+      zIndex: 1, }}/>
 
  {session && <div className="as10">
     <Link href="/eventd" className="d0">
@@ -119,12 +131,6 @@ const[load,sload] = useState("")
             <div className="n2" onClick={(e) => del(e, i)}>
               DELETE
             </div>
-
-            <Link className="ep1" href={`/res/?item=${i}`}>
-              <div className="n2" onClick={(e) => ca(e, i)}>
-                RESPONSE
-              </div>
-            </Link>
           </div>
         ))}
       </div>
